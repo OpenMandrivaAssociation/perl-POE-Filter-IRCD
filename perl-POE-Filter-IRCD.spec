@@ -16,7 +16,6 @@ BuildRequires:	perl-devel
 %endif
 BuildRequires:  perl(POE)
 BuildArch:	    noarch
-Buildroot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 POE::Filter::IRCD is a Perl module that provides a convenient way of parsing
