@@ -1,6 +1,6 @@
 %define module	POE-Filter-IRCD
 %define name	perl-%{module}
-%define version	2.32
+%define version	2.34
 %define release	%mkrel 1
 
 Name:		    %{name}
