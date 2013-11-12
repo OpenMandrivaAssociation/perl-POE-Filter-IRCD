@@ -1,15 +1,15 @@
 %define upstream_name	 POE-Filter-IRCD
-%define upstream_version 2.42
+%define upstream_version 2.44
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	A POE-based parser for the IRC protocol
 License:	GPL
 Group:		Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/POE/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/POE/POE-Filter-IRCD-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(POE)
@@ -133,4 +133,5 @@ make test
 
 * Sat Jun 04 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 1.1-1mdk
 - First Mandriva release
+
 

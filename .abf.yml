@@ -1,2 +1,4 @@
+removed_sources:
+  POE-Filter-IRCD-2.42.tar.gz: cd60adad53160a706291698077a5aaa8365fc81d
 sources:
-  "POE-Filter-IRCD-2.42.tar.gz": cd60adad53160a706291698077a5aaa8365fc81d
+  POE-Filter-IRCD-2.44.tar.gz: 9c5ec395bf8106293542b8dc85d30b46aa1a1a82
