@@ -2,14 +2,14 @@
 %define upstream_version 2.44
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	A POE-based parser for the IRC protocol
 License:	GPL
 Group:		Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/POE/POE-Filter-IRCD-%{upstream_version}.tar.gz
+Url:        https://github.com/bingos/poe-filter-ircd
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/POE-Filter-IRCD-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
