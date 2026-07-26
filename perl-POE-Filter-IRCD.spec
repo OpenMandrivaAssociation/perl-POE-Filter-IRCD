@@ -1,15 +1,13 @@
 %define upstream_name	 POE-Filter-IRCD
-%define upstream_version 2.44
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	2.44
+Release:	5
 
 Summary:	A POE-based parser for the IRC protocol
 License:	GPL
 Group:		Development/Perl
 Url:        https://github.com/bingos/poe-filter-ircd
-Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/POE-Filter-IRCD-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/POE-Filter-IRCD-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -21,7 +19,7 @@ POE::Filter::IRCD is a Perl module that provides a convenient way of parsing
 and creating IRC protocol lines.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -46,9 +44,7 @@ make test
 
 * Wed Jul 29 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.400.0-1mdv2010.0
 + Revision: 404349
-- rebuild using %%perl_convert_version
-
-* Wed May 06 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.40-1mdv2010.0
+- rebuild using %2.44 Wed May 06 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.40-1mdv2010.0
 + Revision: 372532
 - update to new version 2.40
 
